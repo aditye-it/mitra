@@ -1,3 +1,16 @@
+# Mitra — Aditye remote support client
+
+**Mitra** is the remote support tool that [Aditye](https://aditye.com) (IT support & managed services, Istanbul) uses to help its own customers.
+It is a rebranded build of the open-source [RustDesk](https://github.com/rustdesk/rustdesk) project, preconfigured for Aditye's own relay server.
+
+- Based on RustDesk, licensed under **AGPL-3.0** (see [LICENCE](LICENCE)); all changes are published in this repository.
+- Changes from upstream: name, icons/logos and default server settings only.
+- Builds are started manually (Windows / macOS) when a new version is released.
+- The person being helped must run Mitra and share their ID/password; there is no hidden or unattended mode.
+- Support: destek@aditye.com
+
+---
+
 <p align="center">
   <img src="res/logo-header.svg" alt="RustDesk - Your remote desktop"><br>
   <a href="#raw-steps-to-build">Build</a> •
